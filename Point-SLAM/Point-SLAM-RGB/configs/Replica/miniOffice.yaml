@@ -1,0 +1,6 @@
+scene: miniOffice
+inherit_from: configs/Replica/replica.yaml
+config_path: configs/Replica/miniOffice.yaml
+data:
+  input_folder: datasets/Replica/miniOffice
+  output: output/Replica/miniOffice

@@ -1,0 +1,23 @@
+dataset: 'replica'
+project_name: "Point_SLAM_replica"
+tracking:
+  vis_freq: 200
+  ignore_edge_W: 100
+  ignore_edge_H: 100
+  pixels: 800  # Reduced from 1500 for GTX1650
+  iters: 40
+  vis_inside_freq: 40
+mapping:
+  color_refine: True
+  ckpt_freq: 1000
+  keyframe_every: 20
+  mapping_window_size: 12
+  pixels: 2500  # Reduced from 5000 for GTX1650
+  pixels_based_on_color_grad: 500  # Reduced from 1000 for GTX1650
+  iters: 300
+  lazy_start: 20
+rendering:
+  sample_near_pcl: False
+  eval_img: True
+  points_batch_size: 150000  # Reduced from 500000 for GTX1650
+  ray_batch_size: 1500  # Reduced from 3000 for GTX1650

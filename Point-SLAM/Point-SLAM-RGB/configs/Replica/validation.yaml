@@ -1,0 +1,6 @@
+scene: validation
+inherit_from: configs/Replica/replica.yaml
+config_path: configs/Replica/validation.yaml
+data:
+  input_folder: datasets/Replica/validation
+  output: output/Replica/validation

@@ -1,0 +1,6 @@
+scene: bonn
+inherit_from: configs/Replica/replica.yaml
+config_path: configs/Replica/bonn.yaml
+data:
+  input_folder: datasets/Replica/bonn
+  output: output/Replica/bonn
